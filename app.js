@@ -2,7 +2,7 @@ const btn = document.querySelector(".speakBtn")
 const speech = document.querySelector(".speech")
 
 
-speech.innerText = 'Tell me what you need right now? click the button to speak'
+speech.innerText = 'What can i do for you? click the button to speak to me.'
 
 
 const greet = ['am good', 'am doing great', 'am fine', 'am doing well', 'hi what can i do for you?']
@@ -101,7 +101,7 @@ function readLoud(message) {
     
     if (message.includes('money') || message.includes('food') || message.includes('cash') || message.includes('job') || message.includes('work')) {
       
-      speech.text = 'go and ask buhari, your president, am not a' + ' ' + message + ' ' + 'machine' + ' ' + ' and not the cause for covid 19 pandemic'
+      speech.text = 'Ask buhari, your president, am not a' + ' ' + message + ' ' + 'machine' + ' ' + ' and not the cause for covid 19 pandemic'
     }
     
     speech.volume = 1
